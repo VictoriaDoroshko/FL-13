@@ -41,11 +41,6 @@ $sectionRightContainerWidthThirst: 386px;
     font-family: $linkFont;
 }
 
-@mixin sectionCardImg ($imgWidth, $imgHight) {
-    width: $imgWidth;
-    height: $imgHight;
-}
-
 $colorsGradient: (
     leftColor: #699901,
     rightColor: #2c5ade
