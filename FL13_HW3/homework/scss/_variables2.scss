@@ -1,0 +1,57 @@
+$main-bg-head: url(../img/m-h-night.jpg);
+$mainFont:    'Fresca', sans-serif;
+$logoTextWidth: 80px;
+$color-title: #fff;
+$headerTextColor: #efffff;
+$contentBackground: #21232e;
+$titleFont: 'Source Sans Pro', sans-serif;
+$linkLoginColor: #fff;
+$elementBackground: #ff4e33;
+$itemBackground: #3b3f50;
+$linkFont: 'Hind', sans-serif;
+$linkColor: #c0c3ce;
+$btnBackground: #e3ac00;
+$btnColor: #f2f3f7;
+$footerLogo: #d1d1d1;
+$widthFirstChild: 308px;
+$hightFirstChild: 235px;
+$widthSecondChild: 297px;
+$hightSecondChild: 236px;
+$widthThirdChild: 330px;
+$hightThirdChild: 236px;
+$sectionRightContainerWidthFirst: 392px;
+$sectionRightContainerWidthSecond: 400px;
+$sectionRightContainerWidthThirst: 372px;
+
+@mixin btn ($btnBackground, $btnColor, $btnWidth, $btnHeight, $btnFont, $btnFontWeight, $btnFontSize) {
+    background-color: $btnBackground;
+    color: $btnColor;
+    width: $btnWidth;
+    height: $btnHeight;
+    font-family: $btnFont;
+    font-weight: $btnFontWeight;
+    font-size: $btnFontSize;
+    border: none;
+    outline: none;
+}
+
+@mixin link ($linkColor, $linkFontSize, $linkFont) {
+    color: $linkColor;
+    font-size: $linkFontSize;
+    font-family: $linkFont;
+}
+
+@mixin sectionCardImg ($imgWidth, $imgHight) {
+    width: $imgWidth;
+    height: $imgHight;
+}
+
+$colorsGradient: (
+    leftColor: #dfa505,
+    rightColor: #97344e
+);
+
+.header-wrap {
+    width: 1227px;
+    margin: 0 auto;
+}

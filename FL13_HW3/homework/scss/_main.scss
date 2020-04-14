@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: $contentBackground;
+    .header {
+        background-image: $main-bg-head;
+        background-repeat: no-repeat;
+        background-position: 50% 48% !important;
+        height: 725px;
+        background-position: bottom;
+        border-radius: 0 0 41% 0 / 35%;
+        background-size: cover;
+        .header-wrap {
+            @extend .header-wrap;
+            .landing-logo {
+                display: flex;
+                align-items: center;
+                font-weight: 800;
+                font-family: $mainFont;
+                text-align: center;
+                color: $color-title;
+                p {
+                    font-size: 23px;
+                    width: $logoTextWidth;
+                    line-height: 20px;
+                    padding-top: 7px;
+                }
+                span {
+                    display: block;
+                    font-size: 10px;
+                }
+            }
+        }
+        &_heading {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: bold;
+            font-size: 70px;
+            color: $color-title;
+            letter-spacing: 1px;
+            width: 600px;
+            line-height: 72px;
+            margin-top: 49px;
+            margin-bottom: 35px;
+            position: relative;
+            z-index: 1;
+            &:before {
+                content: "";
+                background-color: $elementBackground;
+                position: absolute;
+                height: 50px;
+                width: 301px;
+                bottom: 0;
+                z-index: -1;
+            }
+        }
+        &_text {
+            width: 680px;
+            font-family: $mainFont;
+            line-height: 24px;
+            white-space: pre-line;
+            margin-bottom: 61px;
+            word-spacing: 1px;
+            letter-spacing: .001rem;
+            color: $headerTextColor;
+            z-index: 2;
+        }
+        &_button {
+            @include btn ($btnBackground, $btnColor, 141px, 48px, $titleFont, 600, 18px)
+        }
+        .login {
+            margin-left: 149px;
+            @include link ($linkLoginColor, 20px, $titleFont)
+        }
+    }
+    .section {
+        position: relative;
+        &_text {
+            text-align: center;
+            font-size: 42px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 600;
+            color: $color-title;
+            margin: 0 auto;
+            margin-top: 36px;
+            width: 418px;
+            position: relative;
+            &:after {
+                content: "";
+                background-color: $elementBackground;
+                position: absolute;
+                height: 49px;
+                width: 188px;
+                bottom: 9px;
+                right: 13px;
+                z-index: -1;
+            }
+        }
+        &_card{
+            &_wrap {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 37px;
+                margin-bottom: 185px;
+
+                .section_card {
+                    width: 860px;
+                    padding: 20px; 
+                    border-radius: 5px;
+                    background-color: $itemBackground;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 25px;
+                    &:nth-child(1) {
+                        .section_card_img {
+                            width: $widthFirstChild;
+                            height: $hightFirstChild;
+                        }
+                        .section_card_right_container {
+                            width: $sectionRightContainerWidthFirst;
+                        }
+                    }
+                    &:nth-child(2) {
+                        .section_card_img{
+                            width: $widthSecondChild;
+                            height: $hightSecondChild;
+                        }
+                        .section_card_right_container {
+                            width: $sectionRightContainerWidthSecond;
+                        }
+                    }
+                    &:nth-child(3) {
+                        .section_card_img{
+                            width: $widthThirdChild;
+                            height: $hightThirdChild;
+                        }
+                        .section_card_right_container {
+                            width: $sectionRightContainerWidthThirst;
+                        }
+
+                    }
+                    img {
+                        border-radius: 5px;
+                    }
+                    &_right_container {
+                        color: #b6c3ce;
+                        margin-right: 80px;
+                        text-align: center;
+                        a {
+                            @include link ($linkColor, 16px, $linkFont)
+                        }
+                    }
+                    &_heading {
+                        text-align: center;
+                        font-size: 24px;
+                        font-family: 'Source Sans Pro', sans-serif;
+                        font-weight: 600;
+                        color: #fff;
+                        margin-top: 28px;
+                        margin-bottom: 21px;
+                    }
+                    &_text {
+                        font-family: $mainFont;
+                        text-align: justify;
+                        margin-top: 0;
+                        margin-bottom: 10px;
+                        line-height: 24px;
+                    }
+                    &_link {
+                        @include link ($color-title, 20px, $titleFont)
+                    }
+                }
+            }    
+        }
+        &_banner {
+            border-radius: 5px;
+            width: 755px;
+            margin: 0 auto;
+            background-image: linear-gradient(to right, map-get($colorsGradient, leftColor), map-get($colorsGradient, rightColor));
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 102px;
+            position: absolute;
+            bottom: -259px;
+            left: 50%;
+            transform: translateX(-50%);   
+            &_heading {
+                font-size: 30px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: 700;
+                width: 500px;
+                color: $color-title;
+                margin: 0;
+                margin-bottom: 17px;
+                position: relative;
+                z-index: 2;
+                &:before {
+                    content: "";
+                    background-color: $elementBackground;
+                    position: absolute;
+                    height: 49px;
+                    width: 64px;
+                    top: -11px;
+                    left: 120px;
+                    z-index: -1;
+                }
+            }
+            &_text {
+                 font-family: $mainFont;
+                 color: #fff;
+            }
+            &_button {
+                @include btn ($btnBackground, $btnColor, 141px, 48px, $titleFont, 600, 18px)
+            }
+        }
+
+    }
+    .footer {
+        background-color: #21232e;
+        height: 242px;
+        color: #c0c3ce;
+        .footer-wrap {
+            @extend .header-wrap;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 112px;
+            .landing-logo {
+                display: flex;
+                align-items: center;
+                font-weight: 800;
+                font-family: $mainFont;
+                text-align: center;
+                p {
+                    font-size: 23px;
+                    width: $logoTextWidth;
+                    line-height: 20px;
+                    padding-top: 7px;
+                    color: $footerLogo;
+                }
+                span {
+                    display: block;
+                    font-size: 10px;
+                }
+            }
+            .footer_text {
+                width: 313px;
+                font-family: $mainFont;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            span {
+                font-family: $mainFont;
+            }
+        }
+    }
+}
