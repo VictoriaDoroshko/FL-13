@@ -207,9 +207,10 @@ body {
                 }
             }
             &_text {
-                 font-family: $mainFont;
-                 color: #fff;
+                font-family: $mainFont;
+                color: $bannerTextColor;
             }
+            
             &_button {
                 @include btn ($btnBackground, $btnColor, 141px, 48px, $titleFont, 600, 18px)
             }

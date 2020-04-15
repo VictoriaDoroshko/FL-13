@@ -1,5 +1,5 @@
 .header-wrap, body .header .header-wrap, body .footer .footer-wrap {
-  max-width: 1227px;
+  width: 1227px;
   margin: 0 auto; }
 
 body {
@@ -186,7 +186,7 @@ body {
           z-index: -1; }
       body .section_banner_text {
         font-family: "Fresca", sans-serif;
-        color: #d3cdd1; }
+        color: #d1d1d1; }
       body .section_banner_button {
         background-color: #e3ac00;
         color: #f2f3f7;
@@ -228,3 +228,5 @@ body {
         line-height: 20px; }
       body .footer .footer-wrap span {
         font-family: "Fresca", sans-serif; }
+
+/*# sourceMappingURL=style2.css.map */

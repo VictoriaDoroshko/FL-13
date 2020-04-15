@@ -11,6 +11,7 @@ $itemBackground: #3b3f50;
 $linkFont: 'Hind', sans-serif;
 $linkColor: #c0c3ce;
 $btnBackground: #e3ac00;
+$bannerTextColor:#d3cdd1;
 $btnColor: #f2f3f7;
 $footerLogo: #d1d1d1;
 $widthFirstChild: 308px;
@@ -52,6 +53,6 @@ $colorsGradient: (
 );
 
 .header-wrap {
-    width: 1227px;
+    max-width: 1227px;
     margin: 0 auto;
 }

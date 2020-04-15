@@ -1,5 +1,5 @@
 .header-wrap, body .header .header-wrap, body .footer .footer-wrap {
-  width: 1227px;
+  max-width: 1227px;
   margin: 0 auto; }
 
 body {
@@ -186,7 +186,7 @@ body {
           z-index: -1; }
       body .section_banner_text {
         font-family: "Hind", sans-serif;
-        color: #fff; }
+        color: #bdbdc2; }
       body .section_banner_button {
         background-color: #699900;
         color: #f2f3f7;

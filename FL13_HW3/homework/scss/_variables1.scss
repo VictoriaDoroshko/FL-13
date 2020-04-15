@@ -12,6 +12,7 @@ $linkFont: 'Hind', sans-serif;
 $linkColor: #c0c3c4;
 $btnBackground: #699900;
 $btnColor: #f2f3f7;
+$bannerTextColor:#bdbdc2;
 $footerLogo: #c0c3ce;
 $widthFirstChild: 297px;
 $hightFirstChild: 235px;
@@ -41,17 +42,12 @@ $sectionRightContainerWidthThirst: 386px;
     font-family: $linkFont;
 }
 
-@mixin sectionCardImg ($imgWidth, $imgHight) {
-    width: $imgWidth;
-    height: $imgHight;
-}
-
 $colorsGradient: (
     leftColor: #699901,
     rightColor: #2c5ade
 );
 
 .header-wrap {
-    width: 1227px;
+    max-width: 1227px;
     margin: 0 auto;
 }
