@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 62px;
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    letter-spacing: 0.01em;
+}
+
+.header_main_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header_logo {
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    color: #555555;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    font-size: 20px;
+}
+
+.header_nav {
+    font-family: 'Lora', serif;
+    color: #555555;
+    font-weight: 500;
+}
+
+.header_nav a {
+    color: #555555;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 34px;
+    margin-right: 6px;
+    letter-spacing: 1px;
+}
+
+.header_nav a:hover {
+    color: #bfba9c;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    text-align: center;
+    height: 100vh;
+    margin-bottom: 114px;
+}
+
+.hero_content {
+    padding-top: 326px;
+    height: calc(100% - 100px);
+}
+
+.hero_content_subtitle {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    color: #bfba4e;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-bottom: 62px;
+}
+
+.hero_link {
+    background-color: #fff;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    color: #555555;
+    width: 160px;
+    margin-top: 51px;
+    border: none;
+    border-radius: 30px;
+    padding: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+}
+
+.section {
+    max-width: 945px;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 86px;
+}
+
+.section:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.section img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 38px;
+    max-width: 945px;
+    height: auto;
+}
+.section_main_img {
+    margin-top: 86px;
+}
+
+.section_main_img:first-child {
+    margin-top: 0;
+}
+
+.section_info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 14px;
+    margin-bottom: 7px;
+    color: #555555;
+}
+
+.section_info_author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.section_info_author img{
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 7px;
+    margin-bottom: 0;
+}
+
+.section_info_date {
+    margin-right: 15px;
+}
+
+.section_info_count {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.section_info_comments {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_info_text {
+    font-family: 'Merriweather', serif;
+    color: #777;
+    line-height: 26px;
+    margin-top: 22px;
+    font-size: 14px;
+}
+
+.fa-comment {
+    color: #555555;
+    font-size: 18px;
+}
+
+.section_info_btn {
+    font-family: 'Merriweather', serif;
+    background-color: #fff;
+    color: #555555;
+    width: 189px;
+    margin-top: 36px;
+    border: 1px solid #cccccc;
+    border-radius: 30px;
+    padding: 17px 11px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    margin-bottom: 63px;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: #000;
+    color: #777;
+}
+
+.footer_wrap {
+    max-width: 950px;
+    padding: 97px 15px 90px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.footer h2 {
+    color: #fff;
+}
+
+.footer_info {
+    width: 450px;
+}
+
+.footer_info_text {
+    margin-top: 14px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.footer_contact {
+    width: 364px;
+}
+
+.footer_contact p {
+    margin-top: 17px;
+    margin-bottom: 14px;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+}
+
+.footer_info_copyright {
+    font-size: 16px;
+    font-family: 'Lora', serif;
+}
+
+
