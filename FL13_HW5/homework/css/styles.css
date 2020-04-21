@@ -168,7 +168,7 @@ section {
   text-align: left;
 }
 
-.text time {
+.date {
   font-weight: 300;
   padding-top: 13px;
   font-size: 36px;
@@ -368,7 +368,7 @@ section {
     display: inline;
   }
 
-  .text time {
+  .date {
     font-weight: 100;
     padding-top: 0px;
     font-size: 20px;
@@ -465,6 +465,7 @@ section {
 
   .main {
     max-width: 234px;
+    margin: 0 auto;
   }
 
   .main_wrap {
@@ -480,11 +481,27 @@ section {
     justify-content: start;
   }
 
-  .aside, .aside_block, .aside img, .aside_text {
-    max-width: 234px;
+  .aside, .aside img {
+    width: 234px;
+  }
+
+  .aside_text {
+    max-width: 214px;
+  }
+
+  .aside_text p {
+    max-width: 214px;
+  }
+
+  .aside {
+    margin-left: 0;
   }
 
   .footer {
     max-width: 234px;
+  }
+
+  .footer div {
+    font-size: 7px;
   }
 }
