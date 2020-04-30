@@ -9,5 +9,4 @@ function positiveSum(items) {
     }
     return sum;
 }
-
 positiveSum([2, -2, 3, 8, -5]);

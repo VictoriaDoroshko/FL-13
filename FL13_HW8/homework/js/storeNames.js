@@ -5,5 +5,4 @@ function storeNames() {
     }
     return arr;
 }
-
 storeNames('Nick Fury', 'Iron man', 'Doctor Strange');

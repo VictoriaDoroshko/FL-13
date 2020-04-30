@@ -11,6 +11,6 @@ function letterCount(item, letter) {
     }
     return count;
 }
-console.log(letterCount('Maggy', 'g'));
-console.log(letterCount('Barry', 'b'));
-console.log(letterCount('', 'z'));
+letterCount('Maggy', 'g');
+letterCount('Barry', 'b');
+letterCount('', 'z');

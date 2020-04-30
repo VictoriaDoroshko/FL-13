@@ -5,5 +5,4 @@ function getDifference(firstNum, secondNum) {
     }
     return difference;
 }
-
-console.log(getDifference(5, 7));
+getDifference(5, 7);
