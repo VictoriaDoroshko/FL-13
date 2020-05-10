@@ -99,9 +99,3 @@ function battle(fighter1, fighter2) {
     return;
   }
 }
-
-const myFighter = new Fighter({name: 'Maximus', damage: 25, hp: 100, strength: 30, agility: 25}); 
-const myFighter2 = new Fighter({name: 'Com', damage: 25, hp: 100, strength: 30, agility: 25}); 
-
-battle(myFighter, myFighter2);
-battle(myFighter, myFighter2);
