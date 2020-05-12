@@ -1,0 +1,67 @@
+#root {
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+ul, li {
+    list-style: none;
+    font-family: Roboto, sans-serif;
+}
+ul {
+    position: relative;
+}
+li:before{
+    font-family:'Material Icons';
+    height: 20px;
+    position: absolute;
+    display: block;
+}
+span{
+    padding-left: 26px;
+    font-size: 20px;
+    line-height: 27px;
+}
+span:hover {
+    background-color: #e3e3e3;
+    display: block;
+}
+.material-icons {
+    position: absolute;
+    color: orange;
+}
+.icon-style-grey {
+    color: lightgray;
+}
+.right-click-menu {
+    display: none;
+    position: fixed; 
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #f7f7f5;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.right-click-menu li {
+   line-height: 20px; 
+}
+.right-click-menu li:hover {
+    background-color: lightgray;
+}
+.right-click-menu.active {
+    display: block;
+}
+.is-empty {
+    display: none;
+}
+.is-empty .active {
+    display: block;
+}
+.folder_open {
+    display: none;
+}
+.folder {
+    display: block;
+}
