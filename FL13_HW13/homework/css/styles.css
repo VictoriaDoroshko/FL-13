@@ -1,0 +1,29 @@
+.navbar {
+    color: rgba(0,0,0,0.1);
+}
+.btn {
+    background-color: #ff7f50;
+    color: #fff;
+}
+.btn:hover {
+    background-color: #f5551b;
+}
+.section_dark, .footer  {
+    background-color: #343a40;
+    color: #fff;
+}
+.section_dark .card-body {
+    background-color: #343a40;
+    color: #fff;
+}
+.section_lightgrey, .section_lightgrey .card-body {
+    background-color: #f8f9fa;
+}
+.section_lightgrey .card-body {
+    z-index: 1;
+}
+.section_lightgrey .card img {
+    z-index: 2;
+}
+
+
